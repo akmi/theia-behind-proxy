@@ -3,7 +3,7 @@ version: '2'
 services:
 
   theia:
-    image: sample-thiea:latest
+    image: theiaide/theia-full:latest
     container_name: theia
     networks:
       - no-internet
